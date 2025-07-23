@@ -1,0 +1,28 @@
+.div{
+    /* mar0 */
+    height: 450px;
+    width: 600px;
+    border: 2px solid black;
+    box-shadow: 20px 20px 10px gray;
+    animation: slider 5s linear infinite;
+}
+
+@keyframes slider{
+    0%{
+         background-image: url(image_1.jpg);
+       
+    }
+    25%{
+         background-image: url(image_2.jpg); 
+       
+    }
+      50%{
+        background-image: url(image_3.jpg);
+    }
+    75%{
+        background-image: url(image_4.jpg);
+    }
+    100%{
+        background-image: url(image_5.jpg); 
+    } 
+} 

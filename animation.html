@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Using HTML and CSs</title>
+    <style>
+       img {
+        height: 150px;
+        width: 150px;
+        border: 2px solid black;
+        /* opacity: 0.3; */
+       }
+       .card {
+        display: inline-block;
+        margin-left: 20px;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        
+        }
+        /* .container:hover >:not(:hover){
+            opacity: 0.3;
+        } */
+          /* img:hover >:not(:hover){
+            opacity: 0.3;
+            
+         }  */
+         .container:hover >:not(:hover){
+            opacity: 0.3;
+            
+         } 
+        .card:hover{
+            transform: scale(1.2);
+        }
+        .container{
+            margin-top: 150px;
+            margin-left: 70px;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="card">
+            <img src="image_1.jpg" alt="">
+        </div>
+
+        <div class="card">
+            <img src="image_2.jpg" alt="">
+        </div>
+
+        <div class="card">
+            <img src="image_3.jpg" alt="">
+        </div>
+
+        <div class="card">
+            <img src="image_4.jpg" alt="">
+        </div>
+
+        <div class="card">
+            <img src="image_5.jpg" alt="">
+        </div>
+    </div>
+
+</body>
+</html>

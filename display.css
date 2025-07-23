@@ -1,0 +1,28 @@
+div {
+    display: flex;
+    margin-left: 25px;
+}
+.div1 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-image: url(image_1.jpg);
+    background-size: cover;
+}
+
+.div2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: yellow;
+    background-image: url(image_2.jpg);
+    background-size: cover; 
+}
+.div3{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: tomato;
+    background-image: url(image_4.jpg);
+    background-size: cover;
+}
